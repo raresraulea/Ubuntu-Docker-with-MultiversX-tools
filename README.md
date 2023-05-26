@@ -1,31 +1,33 @@
 # MxPy-Ubuntu-Docker-Scripts
 
-- A Docker Image based on Ubuntu@22.04 with python3, mxpy and optionally Docker Engine installed.
-- Scripts for making container interaction as user-friendly as possible 
+🐳 A Docker Image based on Ubuntu@22.04 with python3, mxpy, and optionally Docker Engine installed. 🚀
+
+📜 Scripts for making container interaction as user-friendly as possible. ✨
 
 ## Overview
 
-- The repository can be helpful for testing and local development in an Ubuntu Container with the MultiversX tools
-- It provides a starting point for developing a stable production-ready Docker image with the MultiversX tools installed. It aims to mimic a web server's production environment and includes essential packages and scripts to facilitate container management.
+🔍 The repository can be helpful for testing and local development in an Ubuntu Container with the MultiversX tools.
+
+👉 It provides a starting point for developing a stable production-ready Docker image with the MultiversX tools installed. It aims to mimic a web server's production environment and includes essential packages and scripts to facilitate container management.
 
 ## Purpose
 
 The primary purposes of this repository are:
 
-1. Mimic a web server's production environment (a linux web server with python and mxpy installed on it - and Docker Engine optionally)
+1. Mimic a web server's production environment (a Linux web server with Python and MxPy installed - and Docker Engine optionally).
 2. Provide a starting point for developing a stable production-ready image with the MultiversX tools installed for Docker production environments.
 
 ## Contents
 
 The repository consists of the following directories:
 
-- `ubuntu-mxpy`: Contains the Dockerfile for building an Ubuntu image with python and mxpy installed.
-- `ubuntu-mxpy-docker-in-docker`: Contains everything ubuntu-mxpy has and additionally installs docker inside docker.
+- `ubuntu-mxpy`: Contains the Dockerfile for building an Ubuntu image with Python and MxPy installed.
+- `ubuntu-mxpy-docker-in-docker`: Contains everything from `ubuntu-mxpy` and additionally installs Docker inside Docker.
 
-Each of the mentioned directories contain the following files:
+Each of the mentioned directories contains the following files:
 
 - `Makefile`: Contains basic scripts for interacting with the Docker image and container (same one for both directories).
-- `Dockerfile`: Describes a Docker image based on the Linux Ubuntu@22.04 distribution with it's necessary dependencies.
+- `Dockerfile`: Describes a Docker image based on the Linux Ubuntu@22.04 distribution with its necessary dependencies.
 
 ## Getting Started
 
@@ -49,11 +51,11 @@ To set up the MultiversX Docker-Ubuntu-MxPy Environment, follow these steps:
    make mxpy-ubuntu
    ```
 
-This command will execute a series of scripts defined in the Makefile to clean any existing containers or images, build the Docker image, run the Docker container, and enter the Ubuntu environment within the container.
+   This command will execute a series of scripts defined in the Makefile to clean any existing containers or images, build the Docker image, run the Docker container, and enter the Ubuntu environment within the container.
 
-Congratulations! You now have the MultiversX Docker Production Environment set up on your system. You can start working with the environment and utilize the MultiversX tools for web development and blockchain-based platform development.
+🎉 Congratulations! You now have the MultiversX Docker Production Environment set up on your system. You can start working with the environment and utilize the MultiversX tools for web development and blockchain-based platform development.
 
-Enjoy coding and building amazing applications with MultiversX!
+Enjoy coding and building amazing applications with MultiversX! 🚀
 
 # More Details
 
@@ -109,7 +111,9 @@ This command will build the Docker image based on the provided Dockerfile.
 
 To run the Docker container, execute the following command:
 
-```bash
+```
+
+bash
 make run-container
 ```
 
