@@ -1,4 +1,4 @@
-# MxPy-Ubuntu-Docker-Scripts
+# Ubuntu-Docker-with-MultiversX-tools
 
 🐳 A Docker Image based on Ubuntu@22.04 with python3, mxpy, and optionally Docker Engine installed. 🚀
 
