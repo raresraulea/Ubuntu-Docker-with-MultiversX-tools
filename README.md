@@ -57,6 +57,9 @@ To set up the MultiversX Docker-Ubuntu-MxPy Environment, follow these steps:
 
 Enjoy coding and building amazing applications with MultiversX! 🚀
 
+
+
+
 # More Details
 
 ## Included Packages
