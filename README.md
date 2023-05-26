@@ -36,13 +36,13 @@ To set up the MultiversX Docker-Ubuntu-MxPy Environment, follow these steps:
 1. Clone the repository:
 
    ```shell
-   git clone <repository_url>
+   git clone https://github.com/raresraulea/MxPy-Ubuntu-Docker-Scripts.git
    ```
 
 2. Navigate to the cloned repository:
 
    ```shell
-   cd <repository_directory>
+   cd <repository_directory>/<version_you_need>
    ```
 
 3. Build and run the Docker container:
