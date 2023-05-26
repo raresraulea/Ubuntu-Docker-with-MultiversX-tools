@@ -17,7 +17,8 @@ build-image:
 
 .PHONY: run-container
 run-container:
-	docker run -d --name $(CONTAINER_NAME) $(IMAGE_NAME) 
+	docker run -d -v /var/run/docker.sock:/var/run/docker.sock --name $(CONTAINER_NAME) $(IMAGE_NAME) 
+	
 
 .PHONY: enter-ubuntu
 enter-ubuntu:
