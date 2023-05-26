@@ -5,8 +5,8 @@
 
 ## Overview
 
-The repository can be helpful for testing and local development with the MultiversX tools
-It provides a starting point for developing a stable production-ready Docker image with the MultiversX tools installed. It aims to mimic a web server's production environment and includes essential packages and scripts to facilitate container management.
+- The repository can be helpful for testing and local development in an Ubuntu Container with the MultiversX tools
+- It provides a starting point for developing a stable production-ready Docker image with the MultiversX tools installed. It aims to mimic a web server's production environment and includes essential packages and scripts to facilitate container management.
 
 ## Purpose
 
